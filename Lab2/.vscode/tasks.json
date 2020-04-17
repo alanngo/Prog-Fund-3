@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "g++ build active file", //needs to match launch.json "configurations: [preLaunchTask]"
+            "command": "/usr/bin/g++",
+            "type": "shell",
+            "args": 
+            [
+                "-g",
+                "Driver.cpp"
+            ],
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        }
+    ]
+}

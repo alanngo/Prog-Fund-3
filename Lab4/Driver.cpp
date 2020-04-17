@@ -81,8 +81,8 @@ void postfix2Infix()
     int j = 0;
     bool hasError=false; // decides whether to do calculations
     
-    printf("Enter a Postfix Expression: ( e.g. 2 3 + 4 * )\n");
-    gets(exp);
+    cout<<"Enter a Postfix Expression: ( e.g. 2 3 + 4 * )\n";
+    cin >> exp;
     len = strlen(exp);
 
     for(int i=0; i<len;i++)//goes through expression
