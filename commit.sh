@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 git add .
-git commit -m "($m)"
+git commit -m "Adding all files"
 git push
